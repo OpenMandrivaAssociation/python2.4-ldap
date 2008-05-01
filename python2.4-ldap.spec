@@ -1,13 +1,13 @@
 %define name    python2.4-ldap
 %define modname python-ldap
-%define version 2.3.1
+%define version 2.3.4
 %define release %mkrel 1
 
 Name: 		%{name}
 Version: 	%{version}
 Release: 	%{release}
 Summary: 	Python 2.4 LDAP bindings
-Source0: 	%{modname}-%{version}.tar.gz
+Source0: 	http://heanet.dl.sourceforge.net/sourceforge/python-ldap/%{modname}-%{version}.tar.gz
 License:	Modified CNRI Open Source License
 Group: 		Development/Python
 Url: 		http://python-ldap.sourceforge.net/

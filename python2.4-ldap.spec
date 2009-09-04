@@ -1,7 +1,7 @@
 %define name    python2.4-ldap
 %define modname python-ldap
 %define version 2.3.4
-%define release %mkrel 2
+%define release %mkrel 3
 
 Name: 		%{name}
 Version: 	%{version}
